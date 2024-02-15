@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the (div of) the first parallax */
+.parallax-1 {
+    width: 100%;
+    height: 600px;
+    background: url(galaxy.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* Styling the title of the first parallax */
+.parallax-1 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 250px; /* In order for the margin: auto to center our header we need to specify how wide our header is*/
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url(sky.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parallax-2 h2 {
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    top: 300px;
+    background-color: #fff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para-1 {
+    padding: 10px;
+    font-size: 17px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+.para-2 {
+    padding: 20px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
